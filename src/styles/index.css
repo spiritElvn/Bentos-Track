@@ -105,11 +105,14 @@ h2 {
   font-size: 2rem;
   padding: 2rem 4rem;
 }
+.section_identification {
+  text-align: center;
+}
 .section_identification_wrapper {
   text-align: center;
 }
 .section_identification_form {
-  margin-top: 4.5rem;
+  margin-top: 10rem;
 }
 .section_identification_input {
   width: 40%;

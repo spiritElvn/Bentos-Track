@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+button {
+  border: 0;
+  box-shadow: none;
+  transition: all 1s;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.margin-0-6 {
+  margin: 0 6%;
+}
+
+.padding-0-6 {
+  padding: 0 6%;
+}
+
+.padding-0-15 {
+  padding: 0 15%;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.navbar_wrapper {
+  padding: 1rem;
+}
+.navbar_logo_icon {
+  width: 4rem;
+  margin-right: 2.5rem;
+}
+.navbar_logo_title {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.navbar_links_link {
+  margin: 0 4.5rem;
+  transition: all 1s;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+.section_header {
+  padding-top: 130px;
+  background-image: url("../pictures/background/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30rem;
+}
+.section_header_title {
+  font-size: 4.8rem;
+}
+.section_header_description {
+  font-size: 2.5rem;
+}
+.section_header_button {
+  font-size: 2rem;
+  padding: 2rem 4rem;
+}
+.section_identification_form {
+  margin-top: 4.5rem;
+}
+.section_identification_input {
+  width: 40%;
+  outline: none;
+}
+.section_identification_input::file-selector-button {
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 2rem 4rem;
+  transition: all 0.5s;
+  margin-right: 5rem;
+}
+.section_identification_input::file-selector-button:hover {
+  cursor: pointer;
+  background: #107f79;
+  border: 1px solid #107f79;
+  color: #dedede;
+}
+.section_identification_button {
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  padding: 2rem 4rem;
+  transition: all 0.5s;
+}
+.section_identification_button:hover {
+  color: #dedede;
+  background-color: #107F79;
+}
+.section_links_link-wrapper {
+  width: 30vw;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 15px;
+  transition: all 1s;
+}
+.section_links_link-wrapper:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section_links_link_clipboard {
+  border-radius: 3px 0 0 3px;
+  padding: 6px;
+  transition: all 0.5s;
+}
+.section_links_link_clipboard-wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section_links_link_clipboard-wrapper:hover {
+  cursor: pointer;
+}
+
+.jjj {
+  width: 80%;
+}
+.jjj > div {
+  margin-top: 50px;
+  max-height: 300px;
+  max-width: 30%;
+}
+
+.identification-statistics-wrapper {
+  background-image: url("../pictures/background/identification.png");
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer_madeBy {
+  font-size: 1.3rem;
+}
+.footer_madeBy_link {
+  transition: all 0.5s;
+}
+
+/*# sourceMappingURL=index.css.map */

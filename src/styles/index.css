@@ -77,6 +77,17 @@ h2 {
   padding-bottom: 100px;
   background-size: cover;
 }
+.section_statistics_pictures {
+  height: 100%;
+}
+.section_statistics_pictures_wrapper {
+  width: 80%;
+}
+.section_statistics_pictures_wrapper > div {
+  margin-top: 50px;
+  height: 300px;
+  max-width: 30%;
+}
 .section_header {
   padding-top: 130px;
   background-image: url("../pictures/background/header.png");
@@ -93,6 +104,9 @@ h2 {
 .section_header_button {
   font-size: 2rem;
   padding: 2rem 4rem;
+}
+.section_identification_wrapper {
+  text-align: center;
 }
 .section_identification_form {
   margin-top: 4.5rem;
@@ -148,15 +162,6 @@ h2 {
 }
 .section_links_link_clipboard-wrapper:hover {
   cursor: pointer;
-}
-
-.jjj {
-  width: 80%;
-}
-.jjj > div {
-  margin-top: 50px;
-  max-height: 300px;
-  max-width: 30%;
 }
 
 .identification-statistics-wrapper {

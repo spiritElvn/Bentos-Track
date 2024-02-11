@@ -15,16 +15,16 @@ const StatisticWrapper = function () {
                         Обучение производилось на собственном датасете, не имеющем аналогов по объёму, <br/>
                         что является большим вкладом в развитии данного направления.</p>
                 </div>
-                <div className="jjj flex justify-between">
+                <div className="section_statistics_pictures_wrapper flex justify-between">
                     <div>
-                        <img src={TrainboxLoss} alt=""/>
+                        <img className="section_statistics_pictures" src={TrainboxLoss} alt=""/>
                     </div>
                     <div>
-                        <img src={TrainclsLoss} alt=""/>
+                        <img className="section_statistics_pictures" src={TrainclsLoss} alt=""/>
 
                     </div>
                     <div>
-                        <img src={TraindfiLoss} alt=""/>
+                        <img className="section_statistics_pictures" src={TraindfiLoss} alt=""/>
 
                     </div>
                 </div>
